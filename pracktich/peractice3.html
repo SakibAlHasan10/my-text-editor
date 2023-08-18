@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="peractice3.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <section class="w-9/12 mx-auto text-center  pb-6 mt-12 rounded-xl bg-sky-400">
+        <div>
+            <h2 class="text-3xl py-4 underline italic ">My Text Editor</h2>
+        </div>
+        <div class="border border-solid border-black bg-sky-200  w-9/12 rounded-lg  mx-auto">
+            <div >
+                <div id="action" class="grid grid-cols-3 items-center h-20">
+                    <div >
+                        <button id="text-bold" class=" rounded-md px-3 hover:bg-blue-500"><i class="fa-solid fa-bold"></i></button>
+                        <button id="text-italic" class="  rounded-md px-3 hover:bg-blue-500"><i class="fa-solid fa-italic"></i></button>
+                        <button id="text-underline"  class="  rounded-md px-3 hover:bg-blue-500"><i class="fa-solid fa-underline"></i></button>
+                    </div>
+                    <div >
+                        <button id="text-left"  class=" rounded-md px-3 hover:bg-blue-500"><i class="fa-solid fa-align-left"></i></button>
+                        <button id="text-center"  class=" rounded-md px-3 hover:bg-blue-500"><i class="fa-solid fa-align-center"></i></button>
+                        <button id="text-right"  class=" rounded-md px-3 hover:bg-blue-500"><i class="fa-solid fa-align-right"></i></button>
+                        <button id="text-aline"  class=" rounded-md px-3 hover:bg-blue-500"><i class="fa-solid fa-align-justify"></i></button>
+                    </div>
+                    <div>
+                        <input type="number" class="w-10">
+                        <button id="aaa" class=" rounded-md px-1  hover:bg-blue-500" ><i class="fa-solid text-xs fa-font"></i></button>
+                        <button class=" rounded-md  px-1 hover:bg-blue-500 " ></i><i class="fa-solid fa-font text-lg"></i></button>
+                        <input class=" rounded-md px-3 hover:bg-blue-500 h-8 py-2" type="color">
+                    </div>
+                </div>
+                <hr class="bg-black hr mx-5">
+            </div>
+            <div class="my-5">
+                <textarea name="" id="text-area" cols=""  class="mx-4 p-4 w-[700px]" rows="12"></textarea>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="peractice3.js"></script>
+</body>
+</html>

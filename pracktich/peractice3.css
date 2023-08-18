@@ -1,0 +1,25 @@
+.active{
+    background-color: black;
+    color: aliceblue;
+}
+.text-bold{
+    font-weight: bold;
+};
+.italic{
+    font-style: italic;
+};
+.underline{
+    text-decoration-line: underline;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-aline{
+    text-align:justify;
+}
